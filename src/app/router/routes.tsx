@@ -1,5 +1,5 @@
 import { createRootRoute, createRoute, createRouter } from '@tanstack/react-router';
-import { HomePage } from '../../pages';
+import { HomePage } from '@/pages';
 
 const rootRoute = createRootRoute();
 
@@ -17,4 +17,4 @@ declare module '@tanstack/react-router' {
   interface Register {
     router: typeof router
   }
-};
+}
