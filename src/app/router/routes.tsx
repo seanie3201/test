@@ -1,5 +1,5 @@
+import HomePage from '@/pages/home/ui/HomePage';
 import { createRootRoute, createRoute, createRouter } from '@tanstack/react-router';
-import { HomePage } from '@/pages';
 
 const rootRoute = createRootRoute();
 
